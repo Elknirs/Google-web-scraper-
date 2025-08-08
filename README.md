@@ -6,16 +6,6 @@ Google Maps Magic: Search for businesses (e.g., "cafes in Tokyo") and grab up to
 Deep Website Crawling: Dives into each business site with BFS crawling (up to depth 2, 30 pages default). Collects aggregated emails, addresses, phones, and social profiles (Facebook, X, Instagram, LinkedIn). 🕸️
 User-Friendly GUI:
 
-Customize everything: query, results limit, crawl depth, pages per site.
-Toggles for visible browser mode and robots.txt respect.
-Real-time progress bar (50% Maps, 50% crawling) and log viewer for that satisfying feedback loop. 📊
-Save/load configs as JSON – no more retyping settings!
-
-
-Smart & Safe(ish): User agent rotation, retries, parallel processing with ThreadPoolExecutor. Warnings for high-risk settings to dodge bans. 🤖
-Export Bliss: Post-scrape file dialog for CSV output. Structured fields ready for your spreadsheets or databases. 📄
-2025 Optimizations: Async Playwright for speed, improved regex for global addresses/phones, and ethical nods like optional robots.txt checks.
-
 ⚙️ Installation
 Get up and running in minutes!
 
